@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashBoard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/dashBoard" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/accounts" />
+
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/security" />
+        <item
+            android:id="@+id/nav_addUser"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/addUser" />
+        <item
+            android:id="@+id/nav_employeeInfo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/employeeInfo" />
+
+        <item
+            android:id="@+id/nav_reportNotice"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/reportNotice" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/help" />
+
+
+
+
+
+    </group>
+
+
+
+</menu>

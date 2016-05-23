@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VitaSourceDevelop</string>
+    <string name="title_activity_admin">Admin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- menu name -->
+    <!-- admin panel-->
+
+    <string name="dashBoard">DashBoard</string>
+    <string name="profile">Profile</string>
+    <string name="accounts">Accounts</string>
+    <string name="security">Security</string>
+    <string name="addUser">Add User</string>
+    <string name="employeeInfo">Employee Info</string>
+    <string name="reportNotice">Report &amp; Notice</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+
+    <!-- TEAM LEADER-->
+    <string name="taskBoard">TaskBoard</string>
+    <string name="project">Project</string>
+    <string name="assignTask">Assign Task</string>
+    <string name="newsEvents">News &amp; Events</string>
+    <string name="notes">Notes</string>
+    <!-- employe -->
+    <string name="myProject">MyProject</string>
+    <string name="reportAdmin">Report to Admin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_team_leader">TeamLeader</string>
+    <string name="title_activity_employe">Employe</string>
+</resources>
