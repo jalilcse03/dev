@@ -1,10 +1,11 @@
 package com.example.mishu.vitasourcedevelop.Activity;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -13,7 +14,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.mishu.vitasourcedevelop.Fragment.AdminAccounts;
 import com.example.mishu.vitasourcedevelop.Fragment.AdminDashBoard;
 import com.example.mishu.vitasourcedevelop.Fragment.AdminProfile;
 import com.example.mishu.vitasourcedevelop.R;
@@ -45,7 +45,7 @@ public class Admin extends AppCompatActivity
 
     private void inti() {
         currentFragment=new AdminDashBoard();
-        manager=getFragmentManager();
+        manager=getSupportFragmentManager();
         transaction=manager.beginTransaction();
         transaction.add(R.id.adminFragment,currentFragment);
         transaction.commit();
@@ -97,7 +97,8 @@ public class Admin extends AppCompatActivity
             currentFragment = new AdminProfile();
         }
         else if (id == R.id.nav_accounts){
-            currentFragment = new AdminAccounts();
+            //currentFragment = new AdminAccounts();
+            startActivity(new Intent(this,Admin_Account.class));
         }
         else if (id == R.id.nav_security){
 

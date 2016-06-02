@@ -31,7 +31,17 @@
         <activity
             android:name=".Activity.Employe"
             android:label="@string/title_activity_employe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Activity.Admin_Account"
+            android:parentActivityName=".Activity.Admin"
+            android:supportsRtl="true"
+            android:theme="@style/MyMaterialTheme"
+            ></activity>
+        <activity android:name=".Activity.SelectDate"
+            android:supportsRtl="true"
+            android:theme="@style/MyMaterialTheme"
+            ></activity>
     </application>
 
 </manifest>

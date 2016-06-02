@@ -34,4 +34,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_team_leader">TeamLeader</string>
     <string name="title_activity_employe">Employe</string>
+
+    <string-array name="cost_income">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
 </resources>
